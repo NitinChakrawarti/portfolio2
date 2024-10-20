@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+.portfolio {
+  width: 40%;
+  font-weight: 700;
+  font-size: 2vw;
+  font-weight: 700;
+  font-family: Kollektif;
+  font-size: 3vw;
+  color: crimson;
+}
+.portfolio h2{
+  height: 100%;
+}
+.sections {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  align-items: center;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 5vw;
+  z-index:1;
+  
+  
+}
+.fa-bars{
+  visibility: hidden;
+}
+.navbarListItem {
+  list-style: none;
+  text-decoration: none;
+  border-bottom: 1vw;
+  border-color: transparent;
+  
+}
+ a {
+  color: aliceblue;  
+}
+.sections a::after {
+  content: "";
+  display: block;
+  height: 0.3vw;
+  width: 100%;
+  background-color: crimson;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.sections a:hover::after {
+  transform: scale(1);
+}
+.navbarListItem {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: Kollektif;
+  font-size: 2.3vw;
+}
+.projectbody{
+  background-color: transparent;
+}
+/* hero section of website */
+.main-page{
+  margin: 10vw 0 2.7vw 2vw;
+  
+  display:flex;
+  justify-content: space-evenly;
+}
+.herosection {
+  font-family: Kollektif;
+  overflow: hidden;
+  color: aliceblue;
+  font-size: 2vw;
+
+}
+
+.userImage{
+  width: 25vw;
+  border-radius: 50%;
+  box-shadow:  4px 4px 80px crimson ;
+  
+}

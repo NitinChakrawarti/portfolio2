@@ -1,0 +1,36 @@
+.footer {
+    background-color: black;
+    color: crimson;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: crimson;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+  }
+  

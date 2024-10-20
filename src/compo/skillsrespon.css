@@ -1,0 +1,42 @@
+@media only screen and (max-width: 470px) {
+.skills{
+margin-top: 50vw;
+}
+.skills-body {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    margin-left: 5vw;
+  }
+.softskills {
+    font-family: Kollektif;
+    color: aliceblue;
+    width: 30vw;
+    height: 30vw;
+    border: 2vw solid aliceblue;
+    border-radius: 50%;
+    box-shadow: 4px 3px 20px crimson;
+    font-size: 4vw;
+  }
+  .softentity{
+    padding-right: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+  }
+
+  
+.skills_soft {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 7vw;
+    padding: 1vw;
+  }
+  .softentity h3 {
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    font-size: 4vw;
+  }
+  
+  
+}

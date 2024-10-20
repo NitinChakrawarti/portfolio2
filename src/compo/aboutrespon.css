@@ -1,0 +1,42 @@
+@media only screen and (max-width: 470px) {
+
+
+    .about_img{
+        height: 100vw;
+        margin: 0vw 0 1vw 6vw;
+    }
+
+
+    .about_sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       align-items: center;
+       margin-bottom: 10vw;
+      
+    }
+    
+    .about_des_h1{
+        font-weight: 600;
+        font-size: 8vw;
+        padding-bottom: 2vw;
+        color: crimson;
+    }
+    .about_des h2{
+        padding-bottom: 2vw;
+        color: aliceblue;
+        font-size: 4vw;
+    }
+    .about_des p{
+        font-weight: 600;
+        color: aliceblue;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        font-family: Kollektif;
+        
+        }
+        .about_btn{
+            margin-left: 1vw;
+            margin-top: 3vw;
+        }
+}
